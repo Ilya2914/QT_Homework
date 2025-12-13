@@ -890,6 +890,7 @@
  mdp:/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h
  mdp:/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h
  mdp:/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_window.hpp
 /Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard.hpp
  mmc:Q_OBJECT
  mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
@@ -1787,7 +1788,6 @@
  mdp:/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h
  mdp:/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h
  mdp:/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h
-/Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_window.hpp
-/Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_data.hpp
 /Users/ilabublik/Desktop/qt_homework/QT_Homework/src/start_dialog.cpp
 /Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_button.hpp
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_data.hpp

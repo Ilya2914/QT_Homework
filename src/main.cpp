@@ -7,11 +7,13 @@ int main(int argc, char* argv[]) {
     QApplication app(argc, argv);
 	
     biv::StartDialog dialog;
-    if (dialog.exec() == QDialog::Accepted) {
-        biv::KeyBoardWindow keyboard_window;
-        keyboard_window.show();
-        return app.exec();
-    }
+    
+    QObject::connect(&dialog, &QDialog::accepted, [&]() {
+        biv::KeyBoardWindow* keyboard_window = new biv::KeyBoardWindow();
+        keyboard_window->setAttribute(Qt::WA_DeleteOnClose);
+        keyboard_window->show();
+    });
 
-    return 0;
+    dialog.show();
+    return app.exec();
 }

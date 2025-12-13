@@ -1,13 +1,19 @@
 # ninja log v6
-3	440	1765564144037735792	keyboard_autogen/timestamp	3502241e41c059af
-3	440	1765564144037735792	keyboard_autogen/mocs_compilation.cpp	3502241e41c059af
-3	440	1765564144037735792	/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/timestamp	3502241e41c059af
-3	440	1765564144037735792	/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/mocs_compilation.cpp	3502241e41c059af
-444	1140	1765564144055769630	CMakeFiles/keyboard.dir/src/keyboard_data.cpp.o	7837b84d2f8a1d1c
-444	1432	1765564144056149708	CMakeFiles/keyboard.dir/src/start_dialog.cpp.o	f4c1606b93b4b9fe
+9	48	1765625248592534350	keyboard_autogen/mocs_compilation.cpp	3502241e41c059af
 444	1453	1765564144055467634	CMakeFiles/keyboard.dir/src/keyboard_button.cpp.o	3bbfa9e22f39af80
+9	48	1765625248592534350	/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/mocs_compilation.cpp	3502241e41c059af
+48	876	1765625248631562679	CMakeFiles/keyboard.dir/src/start_dialog.cpp.o	f4c1606b93b4b9fe
+51	1090	1765624169590585372	CMakeFiles/keyboard.dir/src/keyboard_window.cpp.o	f08516b3a0104ba7
+444	1140	1765564144055769630	CMakeFiles/keyboard.dir/src/keyboard_data.cpp.o	7837b84d2f8a1d1c
 443	1454	1765564144054756144	CMakeFiles/keyboard.dir/keyboard_autogen/mocs_compilation.cpp.o	86c454f5c612dd47
+9	48	1765625248592534350	keyboard_autogen/timestamp	3502241e41c059af
 443	1496	1765564144055208387	CMakeFiles/keyboard.dir/src/keyboard.cpp.o	42b97d40ee77ffe
+9	48	1765625248592534350	/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/timestamp	3502241e41c059af
 443	1521	1765564144055045723	CMakeFiles/keyboard.dir/src/main.cpp.o	23a6c59420f27cc3
-444	1556	1765564144055965169	CMakeFiles/keyboard.dir/src/keyboard_window.cpp.o	f08516b3a0104ba7
-1557	1685	1765564145168361620	keyboard	d962c5d297f8b2ab
+876	997	1765625249459208049	keyboard	d962c5d297f8b2ab
+11	51	1765629508604724856	keyboard_autogen/timestamp	3502241e41c059af
+11	51	1765629508604724856	keyboard_autogen/mocs_compilation.cpp	3502241e41c059af
+11	51	1765629508604724856	/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/timestamp	3502241e41c059af
+11	51	1765629508604724856	/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/mocs_compilation.cpp	3502241e41c059af
+51	1087	1765629508645126005	CMakeFiles/keyboard.dir/src/main.cpp.o	23a6c59420f27cc3
+1088	1280	1765629509681436486	keyboard	d962c5d297f8b2ab
