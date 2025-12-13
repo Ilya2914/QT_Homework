@@ -4,22 +4,20 @@ set -e
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
-BUILD_TYPE="Ninja"
-BUILD_SUFFIX="ninja"
+if command -v ninja &> /dev/null; then
+    BUILD_TYPE="Ninja"
+    BUILD_SUFFIX="ninja"
+else
+    BUILD_TYPE="Unix Makefiles"
+    BUILD_SUFFIX="make"
+fi
 
 BUILD_FOLDER="build_${BUILD_SUFFIX}"
 SOURCE_FOLDER="."
-IMG_FOLDER="img"
-
 if [ "$(uname)" = "Darwin" ]; then
+    export PATH="/opt/homebrew/bin:$PATH"
     if [ -d "/opt/homebrew/opt/qt" ]; then
-        echo "Found Qt at /opt/homebrew/opt/qt"
         export CMAKE_PREFIX_PATH="/opt/homebrew/opt/qt:$CMAKE_PREFIX_PATH"
-    elif [ -d "/usr/local/opt/qt" ]; then
-        echo "Found Qt at /usr/local/opt/qt"
-        export CMAKE_PREFIX_PATH="/usr/local/opt/qt:$CMAKE_PREFIX_PATH"
-    else
-        echo "Warning: Qt installation not found in standard Homebrew locations."
     fi
 fi
 
@@ -32,11 +30,3 @@ cd "$BUILD_FOLDER" || exit
 cmake -G "$BUILD_TYPE" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON "../$SOURCE_FOLDER"
 
 cmake --build .
-
-if [ ! -d "$IMG_FOLDER" ]; then
-  mkdir "$IMG_FOLDER"
-fi
-
-cp "../$IMG_FOLDER/grustnii-smail.png" "$IMG_FOLDER/"
-
-

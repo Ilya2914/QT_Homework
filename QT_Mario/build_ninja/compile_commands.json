@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/QT_Mario_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/QT_Mario.dir/QT_Mario_autogen/mocs_compilation.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/QT_Mario_autogen/mocs_compilation.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/QT_Mario_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/QT_Mario.dir/QT_Mario_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/QT_Mario_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/QT_Mario.dir/main.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/main.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/main.cpp",
+  "output": "CMakeFiles/QT_Mario.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/QT_Mario_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/QT_Mario.dir/mainwindow.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/mainwindow.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/mainwindow.cpp",
+  "output": "CMakeFiles/QT_Mario.dir/mainwindow.cpp.o"
+},
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/QT_Mario_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/QT_Mario.dir/game.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/game.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/game.cpp",
+  "output": "CMakeFiles/QT_Mario.dir/game.cpp.o"
+},
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/QT_Mario_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/QT_Mario.dir/logindialog.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/logindialog.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/logindialog.cpp",
+  "output": "CMakeFiles/QT_Mario.dir/logindialog.cpp.o"
+}
+]

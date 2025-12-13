@@ -1,5 +1,6 @@
 #include "keyboard_window.hpp"
 
+#include <QApplication>
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QPixmap>
@@ -34,6 +35,10 @@ KeyBoardWindow::KeyBoardWindow(QWidget* parent) : QWidget(parent) {
 	main_layout->addLayout(smail_layout);
     main_layout->addWidget(display);
     main_layout->addWidget(keyboard);
+
+	connect(keyboard, &KeyBoard::pressed, this, [this](int key){
+		process_key(key);
+	});
 }
 
 int normalize_key(int key) {
@@ -75,10 +80,8 @@ int normalize_key(int key) {
     }
 }
 
-void KeyBoardWindow::keyPressEvent(QKeyEvent* event) {
-	const int key = normalize_key(event->key());
-	
-	if (keyboard->is_key_allowed(key) || key == Qt::Key_Delete) {
+void KeyBoardWindow::process_key(int key, const QString& sys_text) {
+	if (keyboard->is_key_allowed(key) || key == Qt::Key_Delete || key == Qt::Key_Tab || key == Qt::Key_CapsLock) {
 		if (key == Qt::Key_Backspace || key == Qt::Key_Delete) {
 			QString text = display->toPlainText();
 			text.chop(1);
@@ -89,16 +92,34 @@ void KeyBoardWindow::keyPressEvent(QKeyEvent* event) {
 			display->setText(display->toPlainText() + " ");
 			display->moveCursor(QTextCursor::End);
 			keyboard->animate_button(key);
+		} else if (key == Qt::Key_Tab) {
+			display->setText(display->toPlainText() + "    ");
+			display->moveCursor(QTextCursor::End);
+			keyboard->animate_button(key);
+		} else if (key == Qt::Key_CapsLock) {
+			caps_lock_enabled = !caps_lock_enabled;
+			keyboard->animate_button(key);
 		} else if (key == Qt::Key_Return || key == Qt::Key_Enter) {
 			display->setText(display->toPlainText() + "\n");
 			display->moveCursor(QTextCursor::End);
 			keyboard->animate_button(key);
 		} else {
 			QString text = keyboard->get_key_text(key);
-			const QString sys_text = event->text();
 
-			if (!sys_text.isEmpty() && (sys_text == sys_text.toUpper() && sys_text != sys_text.toLower())) {
+			bool shift_pressed = false;
+			if (!sys_text.isEmpty()) {
+				if (sys_text == sys_text.toUpper() && sys_text != sys_text.toLower()) {
+					shift_pressed = true;
+				}
 			} else {
+				if (QApplication::keyboardModifiers() & Qt::ShiftModifier) {
+					shift_pressed = true;
+				}
+			}
+
+			bool upper = shift_pressed != caps_lock_enabled;
+
+			if (!upper) {
 				text = text.toLower();
 			}
 
@@ -107,4 +128,9 @@ void KeyBoardWindow::keyPressEvent(QKeyEvent* event) {
 			keyboard->animate_button(key);
 		}
 	}
+}
+
+void KeyBoardWindow::keyPressEvent(QKeyEvent* event) {
+	const int key = normalize_key(event->key());
+	process_key(key, event->text());
 }

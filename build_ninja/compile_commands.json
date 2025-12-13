@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -isystem /Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/keyboard.dir/keyboard_autogen/mocs_compilation.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/mocs_compilation.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/keyboard.dir/keyboard_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -isystem /Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/keyboard.dir/src/main.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/src/main.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/src/main.cpp",
+  "output": "CMakeFiles/keyboard.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -isystem /Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/keyboard.dir/src/keyboard.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard.cpp",
+  "output": "CMakeFiles/keyboard.dir/src/keyboard.cpp.o"
+},
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -isystem /Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/keyboard.dir/src/keyboard_button.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_button.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_button.cpp",
+  "output": "CMakeFiles/keyboard.dir/src/keyboard_button.cpp.o"
+},
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -isystem /Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/keyboard.dir/src/keyboard_data.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_data.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_data.cpp",
+  "output": "CMakeFiles/keyboard.dir/src/keyboard_data.cpp.o"
+},
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -isystem /Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/keyboard.dir/src/keyboard_window.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_window.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/src/keyboard_window.cpp",
+  "output": "CMakeFiles/keyboard.dir/src/keyboard_window.cpp.o"
+},
+{
+  "directory": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -isystem /Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/keyboard.dir/src/start_dialog.cpp.o -c /Users/ilabublik/Desktop/qt_homework/QT_Homework/src/start_dialog.cpp",
+  "file": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/src/start_dialog.cpp",
+  "output": "CMakeFiles/keyboard.dir/src/start_dialog.cpp.o"
+}
+]

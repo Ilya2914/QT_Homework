@@ -1,0 +1,5 @@
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/CMakeFiles/keyboard.dir
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/CMakeFiles/edit_cache.dir
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/CMakeFiles/rebuild_cache.dir
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/CMakeFiles/keyboard_autogen_timestamp_deps.dir
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/CMakeFiles/keyboard_autogen.dir

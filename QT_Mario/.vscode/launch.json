@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario",
+      "program": "/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build/Debug/outDebug"
+    }
+  ]
+}

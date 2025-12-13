@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_QT_Mario_FILE /Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/QT_Mario)
+set(__QT_DEPLOY_TARGET_QT_Mario_TYPE EXECUTABLE)

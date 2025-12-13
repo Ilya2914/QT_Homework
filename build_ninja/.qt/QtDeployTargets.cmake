@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_keyboard_FILE /Users/ilabublik/Desktop/qt_homework/QT_Homework/build_ninja/keyboard)
+set(__QT_DEPLOY_TARGET_keyboard_TYPE EXECUTABLE)

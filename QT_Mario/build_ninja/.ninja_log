@@ -1,0 +1,11 @@
+# ninja log v6
+2	455	1765008465372614316	QT_Mario_autogen/timestamp	e6328a91d0e50ae8
+2	455	1765008465372614316	QT_Mario_autogen/mocs_compilation.cpp	e6328a91d0e50ae8
+2	455	1765008465372614316	/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/QT_Mario_autogen/timestamp	e6328a91d0e50ae8
+2	455	1765008465372614316	/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/QT_Mario_autogen/mocs_compilation.cpp	e6328a91d0e50ae8
+458	870	1765008465389661832	CMakeFiles/QT_Mario.dir/game.cpp.o	7f595decdfb515b3
+459	1407	1765008465389849871	CMakeFiles/QT_Mario.dir/logindialog.cpp.o	d0aa849d3c62fb6c
+458	1438	1765008465389343421	CMakeFiles/QT_Mario.dir/main.cpp.o	702dfbf647968fb7
+458	1458	1765008465389510501	CMakeFiles/QT_Mario.dir/mainwindow.cpp.o	b1026114ca522daa
+458	1463	1765008465389107299	CMakeFiles/QT_Mario.dir/QT_Mario_autogen/mocs_compilation.cpp.o	adcece41ee246512
+1463	1581	1765008466394386778	QT_Mario	60cfeabc78f2c257

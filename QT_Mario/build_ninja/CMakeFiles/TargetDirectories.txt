@@ -1,0 +1,5 @@
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/CMakeFiles/QT_Mario.dir
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/CMakeFiles/edit_cache.dir
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/CMakeFiles/rebuild_cache.dir
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/CMakeFiles/QT_Mario_autogen_timestamp_deps.dir
+/Users/ilabublik/Desktop/qt_homework/QT_Homework/QT_Mario/build_ninja/CMakeFiles/QT_Mario_autogen.dir
